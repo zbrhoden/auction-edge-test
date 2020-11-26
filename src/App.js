@@ -1,22 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Link, Switch, Route } from "react-router-dom";
+import ListExample from "./ListExample";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Switch>
+          <Route exact path="/">
+            <img src="../apple-touch-icon-lg.png" alt="logo" />
+            <p>Auction Edge - React App</p>
+            <Link className="App-link" to="/examples/list">
+              #1 - List Feature
+            </Link>
+            <Link className="App-link" to="/examples/[name]">
+              #2 - [insert] Feature
+            </Link>
+            <Link className="App-link" to="/examples/[name]">
+              #3 - [insert] Feature
+            </Link>
+          </Route>
+          <Route exact path="/examples/list">
+            <ListExample />
+          </Route>
+        </Switch>
       </header>
     </div>
   );

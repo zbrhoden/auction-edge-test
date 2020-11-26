@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h4 {
+  width: 100%;
+  text-align: center;
+}
+
+.example {
+  width: 50%;
+}
+
+.example,
+.user {
+  padding: 20px;
+  margin: auto;
+}
+
+.user {
+  width: 53%;
+}
+
+.example > img {
+  width: 100%;
+}
