@@ -2,6 +2,8 @@ import React from "react";
 import { Typography, Paper } from "@material-ui/core";
 import UserCodeWrapper from "../UserCodeWrapper";
 
+import MOCK_LIST from './mock_list' // use this mocked API data
+
 // NOTE: Only modify code between commented lines below
 export default function ListExample() {
   return (
