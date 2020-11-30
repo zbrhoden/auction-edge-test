@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, Route } from "react-router-dom";
+import FormExample from "./components/FormExample";
 import ListExample from "./components/ListExample";
 
 const Routes = () => {
@@ -17,6 +18,9 @@ const Routes = () => {
       </Route>
       <Route exact path="/examples/list">
         <ListExample />
+      </Route>
+      <Route exact path="/examples/form">
+        <FormExample />
       </Route>
     </>
   );

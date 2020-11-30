@@ -6,7 +6,7 @@ function UserCodeWrapper({ children }) {
   return (
     <div className="user">
       <Typography variant="h4">Your Component Below</Typography>
-      <Paper elevation={2} style={{ height: 400, padding: 20 }}>
+      <Paper elevation={2} style={{ height: 600, padding: 20 }}>
         {children}
       </Paper>
     </div >

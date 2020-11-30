@@ -1,12 +1,11 @@
 import React from "react";
-import ExampleWrapper from '../ExampleWrapper'
-import MOCK_LIST from './mock_list' // use this mocked API data
+import ExampleWrapper from "../ExampleWrapper";
 
 // NOTE: Only modify code between commented lines below
-const ListExample = () => {
+const FormExample = () => {
   return (
     <div className="test">
-      <ExampleWrapper src="../list.png" title="List Example">
+      <ExampleWrapper src="../form.png" title="Form Example">
         {/* INSERT YOUR CODE BELOW */}
         <div>REPLACE THIS LINE</div>
         {/* INSERT YOUR CODE ABOVE  */}
@@ -15,4 +14,4 @@ const ListExample = () => {
   );
 }
 
-export default ListExample
+export default FormExample
