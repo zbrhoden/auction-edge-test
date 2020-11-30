@@ -3,8 +3,8 @@ import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./index.css";
 import App from "./App";
-import reportWebVitals from "./reportWebVitals";
-import NavBar from "./NavBar";
+import reportWebVitals from "../src/utils/reportWebVitals";
+import NavBar from "../src/components/NavBar";
 
 ReactDOM.render(
   <Router>
