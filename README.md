@@ -19,7 +19,7 @@ Our app utilizes Material-UI at its core. So we want you to use Material-UI comp
 
 ##### DIRECTIONS
 
-# <<<<<<<<<<<< FEATURE #1 THE LIST >>>>>>>>>>>>
+# FEATURE #1 THE LIST
 
 - TIME: 1 Hour
 - GOAL:
@@ -33,7 +33,7 @@ Our app utilizes Material-UI at its core. So we want you to use Material-UI comp
 
 note: utility functions have been provided for use at your discretion.
 
-# <<<<<<<<<<<< FEATURE #2 THE FORM >>>>>>>>>>>>
+# FEATURE #2 THE FORM
 
 - TIME: 1 Hour
 - GOAL:
