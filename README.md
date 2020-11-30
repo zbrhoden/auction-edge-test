@@ -17,14 +17,31 @@ Our app utilizes Material-UI at its core. So we want you to use Material-UI comp
 - https://material-ui.com/
 - https://reactjs.org/
 
-# <<<<<<<<<<<< <FEATURE #1> >>>>>>>>>>>>
+# <<<<<<<<<<<< <FEATURE #1 THE LIST> >>>>>>>>>>>>
 
+- TIME: 1 Hour
 - GOAL:
+  The goal for this feature is to build out a replica of the list example shown in the app component. Also located in public/list.png.
 
 - REQUIREMENTS:
 
-# <<<<<<<<<<<< <FEATURE #2> >>>>>>>>>>>>
+1. Create a component or components to hold each piece of your code.
+2. To mock our api data, we have created a JSON list array for you. Map over the array to display the data.
+3. Style the list accordingly utilizing Material-UI components where applicable.
 
+note: utility functions have been provided for use at your discretion.
+
+# <<<<<<<<<<<< <FEATURE #2 THE FORM> >>>>>>>>>>>>
+
+- TIME: 1 Hour
 - GOAL:
+  The goal for this feature is to build out a change password form. Each form field should be usable. The styling should also match as closely as possible to the image given.
 
 - REQUIREMENTS:
+
+1. Create a component or components to hold each piece of your code.
+2. Create your own version of the change password form image we have provided.
+3. Style the form accordingly utilizing Material-UI components where applicable.
+4. Utilize the disable/enable functionality of the Button component given the form requirements being met.
+
+note: utility functions have been provided for use at your discretion. You may also create your own hooks where needed.
