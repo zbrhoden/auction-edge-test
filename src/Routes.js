@@ -11,11 +11,8 @@ const Routes = () => {
         <Link className="App-link" to="/examples/list">
           #1 - List Feature
         </Link>
-        <Link className="App-link" to="/examples/[name]">
-          #2 - [insert] Feature
-        </Link>
-        <Link className="App-link" to="/examples/[name]">
-          #3 - [insert] Feature
+        <Link className="App-link" to="/examples/form">
+          #2 - Form Feature
         </Link>
       </Route>
       <Route exact path="/examples/list">
