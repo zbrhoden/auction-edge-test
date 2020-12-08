@@ -1,47 +1,78 @@
-# EDGE CASE - SPARK UI SKILLS TEST
+# 'EDGE CASE' - AUCTION EDGE PAIR PROGRAMMING (UI)
+![Spark Logo](./public/apple-touch-icon-lg.png)
 
-Welcome to the Auction Edge Spark Dev Team skills interview test. First off, we want you to feel as comfortbale as possible in this process so just know, regardless of which feature you choose to build, you are not required to finish.
+Welcome to the Auction Edge Dev Team pair programming repo!
 
-You will be pairing with one of our dev team members through the entire skills test. This team member will be available for you to ask for help as needed. They will also be available for questions about the test and to guide you through the test process.
+First, we want you to feel as comfortable as possible in this process. ***(Breathe in, breathe out)***
 
-## THINGS TO CONSIDER
+#### COOL STUFF
+You will be pairing with one of our dev team members. :sunglasses:
 
-Here you are given a new React App that has some of the basic functionality already installed and written. You will also find some utility functions at your disposal within the app. You are more than welcome to use these on either of the features you choose to build.
+You get to pick the feature! 
 
-Our app utilizes Material-UI at its core. So we want you to use Material-UI components within whichever feature you choose to build out.
+You can ask questions.
+
+You can ask questions.
+
+Have you asked questions yet?
+
+Lastly, regardless of which feature you choose to build, **your goal should not be worrying about finishing**. :relieved:
+
+## OVERVIEW
+
+We have provided you a basic [React App](https://reactjs.org/) that has some of the functionality and components already written.
+
+## DIRECTIONS
+
+1. Clone this repo using `git clone https://github.com/rdbishop19/ui-skills-test`
+1. `cd` into your local copy
+1. Run `npm` commands to install and start the app
+
+#### (SOME BACKGROUND)
+*Our app [Spark](https://www.auctionedge.com/spark) utilizes [Material-UI](https://material-ui.com) at its core. We leverage their component API and extensive documentation to help us deliver quality UI code on the daily.*
+
+# FEATURES (PICK ONE)
+
+## #1 - THE LIST :white_check_mark:
+  ![List Example](./public/list.png)
+
+- **GOAL**:
+  The goal for this feature is to build out a replica of the list example shown.
+
+- **GUIDELINES**:
+
+1. Create a component or components to hold each piece of your code.
+1. To mock our API data, we have created a JSON list array for you. Map over the `MOCK_LIST` array to display the data.
+1. Style the list accordingly utilizing Material-UI components where applicable.
+
+## #2 - THE FORM :white_check_mark:
+![Form Example](./public/form.png)
+
+- **GOAL**:
+  The goal for this feature is to build out a change password form. 
+  Each form field should be usable. 
+  The styling should also match as closely as possible to the image given.
+
+- **GUIDELINES**:
+
+1. Create a component or components to hold each piece of your code.
+1. Create your own version of the change password form image we have provided.
+1. Style the form accordingly utilizing [Material-UI](https://material-ui.com) components where applicable.
+1. Utilize the disable/enable functionality of the Button component given the form requirements being met.
+
+## HELPFUL TIPS
+- The `utils` folder is pretty nifty
+- You may also create your own Hooks where needed.
 
 ## USEFUL LINKS
-
 - https://material-ui.com/
 - https://reactjs.org/
 
-# DIRECTIONS
+## FURTHER READING
+Learn about the principle philosophies behind the [Material Design](https://material.io/design/introduction) spec.
 
-## FEATURE #1 THE LIST
-
-- TIME: 1 Hour
-- GOAL:
-  The goal for this feature is to build out a replica of the list example shown in the app component. Also located in public/list.png.
-
-- REQUIREMENTS:
-
-1. Create a component or components to hold each piece of your code.
-2. To mock our api data, we have created a JSON list array for you. Map over the array to display the data.
-3. Style the list accordingly utilizing Material-UI components where applicable.
-
-note: utility functions have been provided for use at your discretion.
-
-## FEATURE #2 THE FORM
-
-- TIME: 1 Hour
-- GOAL:
-  The goal for this feature is to build out a change password form. Each form field should be usable. The styling should also match as closely as possible to the image given.
-
-- REQUIREMENTS:
-
-1. Create a component or components to hold each piece of your code.
-2. Create your own version of the change password form image we have provided.
-3. Style the form accordingly utilizing Material-UI components where applicable.
-4. Utilize the disable/enable functionality of the Button component given the form requirements being met.
-
-note: utility functions have been provided for use at your discretion. You may also create your own hooks where needed.
+----
+#### FOOTNOTE
+  Our only goal is help you experience a "day in the life" on the Auction Edge team.
+  In doing that, we hope to also get a glimpse into who you are, how you tackle problems and work with others, and where you are in your development journey.
+  So have fun with it, nerd out with us, and if you're possibly reading this *after* the interview, don't spend *too* much time thinking how you could've done it differently. You did just fine. :muscle:
