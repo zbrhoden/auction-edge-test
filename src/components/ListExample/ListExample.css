@@ -1,0 +1,28 @@
+.LowerOffer{
+    color: orange;
+}
+
+.HigherOffer{
+    color: rgb(0, 142, 0);
+}
+
+.Gray{
+    color: gray
+}
+
+.Entry{
+  border-left: 1px dashed gray;
+  border-width: .1rem;
+  position: relative;
+}
+.Entry::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: white;
+    border: 1px solid gray;
+    border-radius: 50%;
+    position: absolute;
+    left: -7px;
+    justify-content: center;
+}

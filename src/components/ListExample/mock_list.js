@@ -9,6 +9,7 @@ const MOCK_LIST = [
     "eventCreatedBy": "Vin Diesel",
     "eventNote": "buyer and seller agree",
     "ballControlCode": "buyer",
+    "ballControlUser": "John Smith"
   },
   {
     "eventTypeCode": "offer_change",
@@ -20,6 +21,7 @@ const MOCK_LIST = [
     "eventCreatedBy": "Vin Diesel",
     "eventNote": "Final offer....",
     "ballControlCode": "buyer",
+    "ballControlUser": "John Smith"
   },
   {
     "eventTypeCode": "offer_change",
@@ -31,6 +33,7 @@ const MOCK_LIST = [
     "eventCreatedBy": "Vin Diesel",
     "eventNote": "not worth that much",
     "ballControlCode": "seller",
+    "ballControlUser": "Mary Sue"
   },
   {
     "eventTypeCode": "offer_change",
@@ -42,6 +45,7 @@ const MOCK_LIST = [
     "eventCreatedBy": "Vin Diesel",
     "eventNote": "wants more money",
     "ballControlCode": "buyer",
+    "ballControlUser": "John Smith"
   },
   {
     "eventTypeCode": "start",
@@ -53,6 +57,7 @@ const MOCK_LIST = [
     "eventCreatedBy": "ADMIN ADMIN",
     "eventNote": null,
     "ballControlCode": "missing",
+    "ballControlUser": "John Smith"
   }
 ]
 

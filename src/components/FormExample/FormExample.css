@@ -1,0 +1,24 @@
+.title {
+font-size: xx-large;
+}
+
+.recover {
+font-size: large;
+}
+
+.resize{
+    width: 40px;
+    height: auto;
+}
+
+.require {
+    margin-left: 12px;
+    margin-bottom: .5px;
+    font-size: x-small;
+}
+
+.requireLast {
+    margin-left: 12px;
+    margin-bottom: 2px;
+    font-size: x-small;
+}
